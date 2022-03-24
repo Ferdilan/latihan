@@ -14,7 +14,7 @@
                 <h5 class="card-title">{{ $barang->nama_barang }}</h5>
                 <p class="card-text">
                     <strong>Harga Barang :</strong> Rp. {{ number_format($barang->harga)}} <br>
-                    <strong>Stok Ketersediaan:</strong> {{ $barang->stok }} <br>
+                    <strong>Stok Ketersediaan Barang:</strong> {{ $barang->stok }} <br>
                     <hr>
                     <strong>Keterangan :</strong> <br>
                     {{ $barang->keterangan }} 
